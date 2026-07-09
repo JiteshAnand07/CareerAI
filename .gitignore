@@ -1,0 +1,21 @@
+# Node modules
+# app/node_modules/
+server/node_modules/
+
+# Build folders
+# app/dist/
+# server/dist/
+
+# Environment variables
+# app/.env
+server/.env
+
+# Logs
+*.log
+
+# VS Code
+.vscode/
+
+# OS files
+.DS_Store
+Thumbs.db
