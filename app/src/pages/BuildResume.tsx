@@ -244,7 +244,7 @@ const BuildResumePage = () => {
                   onChange={(v: string) =>
                     setBasics((p) => ({ ...p, location: v }))
                   }
-                  placeholder="Ranchi, 812345"
+                  placeholder="Noida, 201309"
                 />
                 <Field
                   label="Linkedin Url"
@@ -252,7 +252,7 @@ const BuildResumePage = () => {
                   onChange={(v: string) =>
                     setBasics((p) => ({ ...p, linkedin: v }))
                   }
-                  placeholder="linkedin.com/in/msd"
+                  placeholder="linkedin.com/in/xyz"
                 />
                 <Field
                   label="Professinal Summary (AI will enhance it)"
@@ -302,7 +302,7 @@ const BuildResumePage = () => {
                       label="Location"
                       value={exp.location}
                       onChange={(v: string) => updateExp(ei, "location", v)}
-                      placeholder="Ranchi, jharkhand"
+                      placeholder="Noida, Uttar Pradesh"
                     />
                     <Field
                       label="Start Date"
@@ -397,7 +397,7 @@ const BuildResumePage = () => {
                           p.map((e, i) => (i === ei ? { ...e, degree: v } : e))
                         )
                       }
-                      placeholder="B.Tech CS"
+                      placeholder="B.Tech CSE"
                     />
                     <Field
                       label="School"
@@ -407,7 +407,7 @@ const BuildResumePage = () => {
                           p.map((e, i) => (i === ei ? { ...e, school: v } : e))
                         )
                       }
-                      placeholder="IIT Bombay"
+                      placeholder="JIIT"
                     />
                     <Field
                       label="Location"
@@ -419,7 +419,7 @@ const BuildResumePage = () => {
                           )
                         )
                       }
-                      placeholder="Mumbai, India"
+                      placeholder="Noida, India"
                     />
                     <Field
                       label="Year"
@@ -522,7 +522,7 @@ const BuildResumePage = () => {
                           p.map((e, i) => (i === pi ? { ...e, link: v } : e))
                         )
                       }
-                      placeholder="github.com/pkc/project"
+                      placeholder="github.com/xyz/project"
                     />
                   </div>
                 </div>
