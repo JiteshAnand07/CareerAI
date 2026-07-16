@@ -52,7 +52,7 @@ const Login = () => {
             CareerAI
           </h1>
           <p className="text-white/40 text-sm leading-relaxed text-gradient">
-            Your AI-powered career co-poilet - build, analyse, and land your
+            Your AI-powered career co-pilot - build, analyse, and land your
             next role.
           </p>
         </div>
