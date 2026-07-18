@@ -182,7 +182,7 @@ const BuildResumePage = () => {
 
       setResult(data);
     } catch (error: any) {
-      setError(error?.response?.data?.message || "Failed to build Resume");
+      setError(error?.response?.data?.message || "Failed to build resume");
     } finally {
       setLoading(false);
     }
