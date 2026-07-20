@@ -84,7 +84,7 @@ const InterviewPrep = () => {
       return setError("Please add at least one skill and your experience.");
     }
     if (mode === "resume" && !file) {
-      return setError("Please upload your Resume pdf.");
+      return setError("Please upload your resume pdf.");
     }
 
     setLoading(true);
